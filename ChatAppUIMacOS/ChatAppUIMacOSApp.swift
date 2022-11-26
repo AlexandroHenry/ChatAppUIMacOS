@@ -13,5 +13,17 @@ struct ChatAppUIMacOSApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        // Hiding Title Bar...
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
+
+// Hiding TextField Focus Ring...
+extension NSTextField {
+    open override var focusRingType: NSFocusRingType {
+        get{.none}
+        set{}
+    }
+}
+

@@ -11,6 +11,15 @@
 		AADBBC712931C77B00698658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC702931C77B00698658 /* ContentView.swift */; };
 		AADBBC732931C77D00698658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADBBC722931C77D00698658 /* Assets.xcassets */; };
 		AADBBC772931C77D00698658 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADBBC762931C77D00698658 /* Preview Assets.xcassets */; };
+		AADBBC812931C7ED00698658 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC802931C7ED00698658 /* Home.swift */; };
+		AADBBC832931C83800698658 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC822931C83800698658 /* TabButton.swift */; };
+		AADBBC852931C96700698658 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC842931C96700698658 /* HomeViewModel.swift */; };
+		AADBBC872931CADF00698658 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC862931CADF00698658 /* BlurView.swift */; };
+		AADBBC892931CC8900698658 /* AllChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC882931CC8900698658 /* AllChatsView.swift */; };
+		AADBBC8B2931CCE500698658 /* RecentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC8A2931CCE500698658 /* RecentMessage.swift */; };
+		AADBBC8D2931CDD600698658 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC8C2931CDD600698658 /* Message.swift */; };
+		AADBBC8F2931CFA700698658 /* RecentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC8E2931CFA700698658 /* RecentCardView.swift */; };
+		AADBBC912931DC8C00698658 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADBBC902931DC8C00698658 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		AADBBC722931C77D00698658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADBBC742931C77D00698658 /* ChatAppUIMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatAppUIMacOS.entitlements; sourceTree = "<group>"; };
 		AADBBC762931C77D00698658 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AADBBC802931C7ED00698658 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AADBBC822931C83800698658 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		AADBBC842931C96700698658 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AADBBC862931CADF00698658 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		AADBBC882931CC8900698658 /* AllChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChatsView.swift; sourceTree = "<group>"; };
+		AADBBC8A2931CCE500698658 /* RecentMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMessage.swift; sourceTree = "<group>"; };
+		AADBBC8C2931CDD600698658 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AADBBC8E2931CFA700698658 /* RecentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCardView.swift; sourceTree = "<group>"; };
+		AADBBC902931DC8C00698658 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,9 @@
 		AADBBC6D2931C77B00698658 /* ChatAppUIMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				AADBBC7F2931C7E000698658 /* ViewModel */,
+				AADBBC7E2931C7D800698658 /* Model */,
+				AADBBC7D2931C7CC00698658 /* View */,
 				AADBBC6E2931C77B00698658 /* ChatAppUIMacOSApp.swift */,
 				AADBBC702931C77B00698658 /* ContentView.swift */,
 				AADBBC722931C77D00698658 /* Assets.xcassets */,
@@ -67,6 +88,36 @@
 				AADBBC762931C77D00698658 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AADBBC7D2931C7CC00698658 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AADBBC802931C7ED00698658 /* Home.swift */,
+				AADBBC822931C83800698658 /* TabButton.swift */,
+				AADBBC862931CADF00698658 /* BlurView.swift */,
+				AADBBC882931CC8900698658 /* AllChatsView.swift */,
+				AADBBC8E2931CFA700698658 /* RecentCardView.swift */,
+				AADBBC902931DC8C00698658 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AADBBC7E2931C7D800698658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AADBBC8A2931CCE500698658 /* RecentMessage.swift */,
+				AADBBC8C2931CDD600698658 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AADBBC7F2931C7E000698658 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AADBBC842931C96700698658 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADBBC892931CC8900698658 /* AllChatsView.swift in Sources */,
 				AADBBC712931C77B00698658 /* ContentView.swift in Sources */,
+				AADBBC832931C83800698658 /* TabButton.swift in Sources */,
+				AADBBC8D2931CDD600698658 /* Message.swift in Sources */,
+				AADBBC812931C7ED00698658 /* Home.swift in Sources */,
+				AADBBC912931DC8C00698658 /* DetailView.swift in Sources */,
+				AADBBC8B2931CCE500698658 /* RecentMessage.swift in Sources */,
+				AADBBC852931C96700698658 /* HomeViewModel.swift in Sources */,
+				AADBBC8F2931CFA700698658 /* RecentCardView.swift in Sources */,
 				AADBBC6F2931C77B00698658 /* ChatAppUIMacOSApp.swift in Sources */,
+				AADBBC872931CADF00698658 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
